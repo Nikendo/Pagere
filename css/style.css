@@ -1,0 +1,88 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: "MyriadProRegular", sans-serif;
+}
+
+.circle{
+	position: relative;
+	border: 1px solid #0071BE;
+	width: 255.72px;
+	height: 255.63px;
+	border-radius: 500px;
+	margin: 127px 0 0 176px	
+}
+.circle #circle-center{
+	position: absolute;
+	margin: 16px;
+	width: 223.06px;
+	height: 223px;
+	background: #0071BE;
+	border-radius: 500px;
+}
+
+#name, #surname, #prof{
+	font-size: 55px;
+	min-width: 500px;
+	width: 500px;
+	margin-left: 55px;
+	position: left;
+	text-align: center;		
+}
+
+#name{
+	font-size: 57.54px;
+	margin-top: 25px;	
+	margin-bottom: 0px;
+	text-transform: uppercase;	
+	/*border: 1px solid;*/
+}
+
+#surname{
+	font-size: 67.99px;
+	margin-top: -19px;	
+	margin-bottom: 0px;
+	font-weight: bold;
+	/*border: 1px solid;*/
+}
+
+#prof{
+	font-size: 27.59px;
+	margin-top: 3px;	
+}
+.profile{
+	margin: 83px 0 0 68px;
+}
+.profile img, .profile p, .profile .line{	
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 17px 0 0;
+}
+
+.profile img{
+	width: 82px;
+	height: 78px;
+}
+
+.profile p{
+	font-size: 45.33px;
+	margin-left: -10px;
+	margin-right: 3px;
+}
+
+.profile .line{
+	border: 3px solid #0071BE;
+	min-width: 180px;
+	margin-left: 0px;
+}
+
+.text{
+	
+}
+
+.text p{
+	width: 428px;
+	margin-left: 68px;
+	/*border: 1px solid;*/
+}
